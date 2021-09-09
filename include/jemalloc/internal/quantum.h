@@ -31,8 +31,7 @@
 #    define LG_QUANTUM		4
 #  endif
 /*
- * Minimum allocation alignment is 16-byte on both LoongArch 32-bit and 
- * 64-bit.
+ * Minimum allocation alignment is 16-byte on both LoongArch 64-bit.
  */
 #  ifdef __loongarch__
 #    define LG_QUANTUM		4
